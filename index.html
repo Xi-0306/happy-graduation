@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HAPPY GRADUATION Dr.Liu</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Playfair Display', serif;
+      background-image: url('https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1470&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 100px 20px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 40px;
+    }
+
+    .poem {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.4em;
+      line-height: 2em;
+      white-space: pre-wrap;
+    }
+
+    .audio-player {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0,0,0,0.5);
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+
+    audio {
+      width: 250px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>HAPPY GRADUATION Dr.Liu</h1>
+    <div class="poem">
+Roots in the Cold<br>
+In silence, plants must brave the freeze,<br>
+While winds grow sharp and saplings seize.<br>
+Genes respond in shifting streams—<br>
+Some whisper fast, some dream in dreams.<br>
+Chloroplasts flinch, then swiftly act,<br>
+As nuclei draft a slower pact.<br>
+Mitochondria stay still, restrained,<br>
+While balance in the cell is strained.<br>
+Yet in the thaw, the dance rewinds,<br>
+New songs are sung, new ties that bind.<br>
+From cold to warm, life's code replays—<br>
+A tale of light through icy days.
+    </div>
+  </div>
+
+  <div class="audio-player">
+    <audio controls autoplay loop>
+      <source src="https://cdn.pixabay.com/download/audio/2022/03/23/audio_2b6d142a61.mp3?filename=piano-moment-9835.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+</html>
